@@ -1,0 +1,66 @@
+.calculadora {
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.336);
+}
+
+.calculadora_exibir {
+    background-color: #202020;
+    color: #fff;
+    width: 14.25rem;
+    padding: .75rem 1rem;
+    text-align: right;
+    font-size: calc(1rem * 1.2 * 1.2);
+}
+
+.calculadora_botoes {
+    height: 10rem;
+    background: rgb(190, 190, 190);
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-areas:
+        ". . . ."
+        "sete oito nove igual"
+        "quatro cinco seis igual"
+        "um dois tres igual"
+        "zero decimal limpar igual";
+}
+
+.um {
+    grid-area: um;
+}
+.dois {
+    grid-area: dois;
+}
+.tres {
+    grid-area: tres;
+}
+.quatro {
+    grid-area: quatro;
+}
+.cinco {
+    grid-area: cinco;
+}
+.seis {
+    grid-area: seis;
+}
+.sete {
+    grid-area: sete;
+}
+.oito {
+    grid-area: oito;
+}
+.nove {
+    grid-area: nove;
+}
+.zero {
+    grid-area: zero;
+}
+.decimal {
+    grid-area: decimal;
+}
+.limpar {
+    grid-area: limpar;
+}
+.igual {
+    grid-area: igual;
+    
+}
